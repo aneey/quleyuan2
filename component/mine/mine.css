@@ -1,0 +1,68 @@
+html,body{
+    background: #eee;
+}
+#head {
+    position:relative;
+    width: 16rem;
+    height: 8rem;
+    /*background: #fff;*/
+}
+#head #p1{
+    width:16rem;
+    height:8rem;
+    /*border-radius: 50%;*/
+    /*border: 1px solid #ccc;*/
+    margin:auto;
+    /*overflow: hidden;*/
+}
+#p1 img{
+    position: absolute;
+    left: 40%;
+    top:30%;
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    /*background-size: cover;*/
+    /*z-index:2;*/
+}
+#img1{
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top:0;*/
+    width: 16rem;
+    height: 8rem;
+    /*background-size: cover;*/
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    filter: blur(10px);
+    /*z-index: 1;*/
+}
+#head #log{
+    text-align: center;
+    font-size: 0.8rem;
+}
+#ulList{
+    width:16rem;
+    margin: 0.3rem 0 0 0;
+    background: #fff;
+}
+#ulList li{
+    width:16rem;
+    height:2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #c0c0c0;
+    color: #333;
+}
+#ulList .lp{
+    width:10rem;
+    height:2rem;
+    font-size: 0.6rem;
+    float: left;
+    margin: 0 0 0 0.3rem;
+}
+#ulList .rp{
+    /*width:rem;*/
+    /*height:1rem;*/
+    float: right;
+    font-size: 1rem;
+    margin: 0 0.3rem 0 0;
+}
